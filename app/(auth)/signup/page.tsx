@@ -49,7 +49,7 @@ export default function SignupPage() {
     <div className="w-full max-w-sm">
       {/* Mobile logo */}
       <div className="flex items-center gap-2 mb-8 lg:hidden">
-        <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+        <div className="w-8 h-8 rounded-xl bg-linear-to-br from-amber-400 to-orange-500 flex items-center justify-center">
           <TrendingUp size={15} className="text-black" />
         </div>
         <span className="text-sm font-bold text-white">TradeLog</span>

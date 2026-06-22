@@ -21,7 +21,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
     return (
       <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center">
         <div className="flex flex-col items-center gap-3">
-          <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 animate-pulse" />
+          <div className="w-8 h-8 rounded-xl bg-linear-to-br from-amber-400 to-orange-500 animate-pulse" />
           <p className="text-xs text-[#444] uppercase tracking-widest">Loading…</p>
         </div>
       </div>
@@ -48,7 +48,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         {/* Mobile top bar */}
         <div className="flex items-center justify-between px-4 py-3 border-b border-[#1a1a1a] lg:hidden bg-[#0c0c0c]">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+            <div className="w-6 h-6 rounded-lg bg-linear-to-br from-amber-400 to-orange-500 flex items-center justify-center">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
                 <polyline points="16 7 22 7 22 13" />

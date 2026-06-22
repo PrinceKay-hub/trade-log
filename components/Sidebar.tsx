@@ -34,7 +34,7 @@ export default function Sidebar({ onNavigate }: SidebarProps) {
     <aside className="w-60 shrink-0 bg-[#0c0c0c] border-r border-[#1f1f1f] h-full min-h-screen flex flex-col">
       <div className="px-6 py-5 border-b border-[#1f1f1f]">
         <div className="flex items-center gap-2.5">
-          <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+          <div className="w-7 h-7 rounded-lg bg-linear-to-br from-amber-400 to-orange-500 flex items-center justify-center">
             <TrendingUp size={14} className="text-black" />
           </div>
           <div>

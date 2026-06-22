@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "TradeLog — Forex & Crypto Journal",
   description: "Track your trading progress, strategy, and performance.",
+  icons: "/uploads/icon.jpg",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
